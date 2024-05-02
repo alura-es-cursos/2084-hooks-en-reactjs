@@ -11,10 +11,10 @@ const HeaderEstilizado = styled.header`
     }
 `
 
-const Cabecera = () => {
+const Cabecera = ({ setConsulta, textoConsulta }) => {
     return <HeaderEstilizado>
         <img src="img/logo.png" alt="Logo de Space App" />
-        <CampoTexto />
+        <CampoTexto setConsulta={setConsulta} textoConsulta={textoConsulta} />
     </HeaderEstilizado>
 }
 
