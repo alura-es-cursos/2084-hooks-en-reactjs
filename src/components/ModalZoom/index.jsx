@@ -30,7 +30,6 @@ const DialogEstilizado = styled.dialog`
     }
 `
 const ModalZoom = () => {
-    //const { fotoSeleccionada, alAlternarFavorito, setFotoSeleccionada } = useContext(GlobalContext);
     const { state, dispatch } = useContext(GlobalContext);
     return <>
         {state.fotoSeleccionada && <>
